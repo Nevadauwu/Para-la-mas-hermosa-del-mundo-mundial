@@ -10,7 +10,7 @@ st.set_page_config(
 
 #Estilo visual
 st.markdown("""
-    <style>
+    <style> 
     /* Fondo con degradado romántico */
     .stApp {
         background: linear-gradient(135deg, #ffa9a9 0%, #fecfef 50%, #feada6 100%);
@@ -65,7 +65,7 @@ if st.button("Puchale aki para recibir un besote en tus cachetitos hermosos"):
     st.success("Muaak! Te mando un besote en tus cachetitos hermosos ❤️")
 
 
-#Interaccion 2: Razones por las que te amo
+#Interaccion 2: Razones por las que te amo 
 st.divider()
 st.markdown("¿Por qué este lokote te ama tanto? Aquí van algunas razones:")
 razones = [
@@ -74,15 +74,39 @@ razones = [
     "Ningun slime se comparan a esos cachetitos tan divinos que tienes.",
     "Escucharte cantar mata todos los demonios de mi coko maniakon.",
     "Me haces sentir mas fuerte que tanke de cri.",
-    "Juntos me sale lo warrior, sabes que por ti mato."
+    "Juntos me sale lo warrior, sabes que por ti mato.",
+    "No hay nada mejor en el mundo que despertar acurrucados dandonos calor.",
+    "Eres el publico favorito de mi neurona rapera:) ",
+    "Mis ojos reviven al verte deslumbrar en este mundo podrido",
+    
 ]
-
 razon_elegida = "Presiona el botón para ver una razón 💖"
-
 if st.button("Generar una razón aleatoria"):
     razon_elegida = random.choice(razones)
 
 st.info(f"💖 **Razón:** {razon_elegida}")
+
+
+#Razoones por las que deberias hablarme :C (24/09/26)
+st.divider()
+st.markdown("Por qué deberias comunicarte con este flaco que te ama tanto")
+razones2 = [
+    "Sin ti mi corazon derrama sangre transmutada en agua.",
+    "Osito ya se cansó de ser aplastado, necesita tu relevo :(.",
+    "Spoki muere de tristeza como yo esperando saber de tu bienestar.",
+    "te amo.",
+    "te kero.",
+    "te kero y te amo mucho.",
+    "Mis dedos sufren sin sentir sus slimes favoritos.",
+    "Sin ti spoki se pone bien caliya.",
+
+]
+
+razon_elegida2 = "Nelycita pechocha keo te necesita y aqui hay varias razones :c"
+if st.button("por que keito te necesita igual que su corazoncito?"):
+    razon_elegida2 = random.choice(razones2)
+
+st.info(f" ***Razón***  {razon_elegida2}")
 
 #Interaccion 3: Medidor de amor
 st.divider()
